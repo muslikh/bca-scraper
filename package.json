@@ -1,0 +1,24 @@
+{  
+  "name": "bca-scraper",
+  "version": "1.0.0",
+  "description": "Plugin untuk mendapatkan saldo terakhir dan mutasi rekening BCA via klikbca tanpa menggunakan official API dari Bank BCA.",
+  "keywords": [
+    "bankbca",
+    "klikbca",
+    "bca",
+    "saldo",
+    "mutasi",
+    "rekening"
+  ],
+  "dependencies": {
+    "config": "^3.3.9",
+    "express": "^4.18.2",
+    "moment": "^2.24.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
